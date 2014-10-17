@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#d4d4d4">
+    
+	    <EditText android:id="@+id/etname"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="48dp"
+	        android:layout_marginRight="48dp"
+	        android:layout_marginTop="48dp"
+	        android:layout_alignParentTop="true"
+	        android:layout_alignParentLeft="true"
+	        android:hint="@string/hint_name"
+	 		android:textSize="30sp"
+	        />
+	    
+	    <View android:id="@+id/config_separator"
+	        android:layout_width="match_parent"
+	        android:layout_height="0dp"
+	        android:layout_marginTop="64dp"
+	        android:layout_marginBottom="64dp"
+	        android:gravity="center"
+	        android:layout_below="@id/etname"
+	        android:background="#808080"/>
+	      
+	    <LinearLayout android:id="@+id/numberPickers"
+	        android:layout_width="match_parent"
+	        android:layout_marginLeft="16dp"
+	        android:layout_marginRight="16dp"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:layout_below="@id/config_separator" >
+	        
+	        <RelativeLayout
+	            android:layout_width="0dp" 
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="16dp"
+	            android:layout_weight="1" >
+	            
+		        <TextView
+			        android:id="@+id/tvlevel"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginBottom="32dp"
+		            android:text="@string/difficulty" 
+		            android:textSize="25sp"
+		            android:layout_centerHorizontal="true"
+		            />
+			    <NumberPicker
+			        android:id="@+id/timePickerLevel"
+			        android:layout_below="@id/tvlevel"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        />
+			    
+	            
+	        </RelativeLayout>
+	        
+	        <LinearLayout
+		        android:layout_width="1dp"
+		        android:layout_height="match_parent"
+	            android:layout_marginLeft="12dp"
+	            android:layout_marginRight="12dp"
+		        android:orientation="vertical"
+		        android:background="#FFFFFF"
+		        />
+	        
+		    <RelativeLayout
+	            android:layout_width="0dp" 
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1" >
+		        
+			    
+   			    <TextView
+			        android:id="@+id/tvquestions"
+			        android:layout_alignParentTop="true"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginBottom="32dp"
+		            android:text="@string/num_questions" 
+		            android:textSize="25sp"
+		            android:layout_centerHorizontal="true"
+		            />
+			    <NumberPicker
+			        android:id="@+id/timePickerNumQuestions"
+			        android:layout_below="@id/tvquestions"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"/>
+			    			    
+	        </RelativeLayout>
+	        
+		    <LinearLayout
+		        android:layout_width="1dp"
+		        android:layout_height="match_parent"
+		        android:orientation="vertical"
+	            android:layout_marginLeft="12dp"
+	            android:layout_marginRight="12dp"
+		        android:background="#FFFFFF"
+		        />
+	        
+	        <RelativeLayout
+	            android:layout_width="0dp" 
+	            android:layout_height="wrap_content"
+	            android:layout_marginRight="16dp"
+	            android:layout_weight="1" >
+	            
+			    <TextView
+			        android:id="@+id/tvDescription"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginBottom="32dp"
+		            android:text="@string/time" 
+		            android:textSize="25sp"
+		            android:layout_centerHorizontal="true"
+		            />
+			    <NumberPicker
+			        android:id="@+id/timePickerTime"
+			        android:layout_below="@id/tvDescription"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        />
+			    
+	        </RelativeLayout>
+	    
+	    </LinearLayout>
+	    
+	    <View android:id="@+id/config_separator2"
+	        android:layout_width="match_parent"
+	        android:layout_height="0dp"
+	        android:layout_marginTop="64dp"
+	        android:layout_marginBottom="64dp"
+	        android:gravity="center"
+	        android:layout_below="@id/numberPickers"
+	        android:background="#808080"/>
+	    
+	    <Button android:id="@+id/startTestButton"
+	        android:layout_height="60dp"
+	        android:layout_marginLeft="48dp"
+	        android:layout_marginRight="48dp"
+	        android:textSize="30sp"
+	        android:layout_below="@id/config_separator2"
+	        style="@style/TimeTestButton" />
+
+</RelativeLayout>
+

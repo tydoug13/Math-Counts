@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <Button android:id="@+id/submit"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:text="@string/go_back"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        style="@style/TimeTestButton"
+        android:background="@drawable/button_shape_shadowed"
+        android:layout_marginTop="16dp" />
+    
+    <TextView android:id="@+id/questionsSkipped"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:layout_above="@id/submit"
+        android:layout_marginTop="16dp"
+        />
+    
+    <LinearLayout android:id="@+id/wrong_prompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_above="@id/questionsSkipped"
+        android:layout_centerHorizontal="true">
+    
+		<TextView android:id="@+id/finished_prompt"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/you_skipped"
+		    android:layout_marginRight="6sp"
+		    android:textSize="32sp" />
+		
+		<TextView android:id="@+id/numSkipped"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="4" 
+		    android:textSize="40sp"
+		    android:layout_marginRight="8sp"
+		    android:textColor="#db111c"/>
+		
+		<TextView android:id="@+id/finished_prompt2"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/space_questions"
+		    android:textSize="32sp" />
+	 
+	</LinearLayout>
+	
+    <TextView android:id="@+id/pressSubmit"
+	    android:layout_width="wrap_content"
+	    android:layout_height="80dp"
+	    android:text="@string/press_submit"
+	    android:visibility="invisible"
+	    android:layout_above="@id/submit"
+	    android:layout_centerHorizontal="true"
+	    android:textSize="60sp"
+	    android:layout_marginBottom="64dp" />
+    
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="12dp"
+        android:src="@drawable/blackarrow"/>
+	
+</RelativeLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_activated"
+    android:orientation="horizontal" >
+    
+    <FrameLayout 
+    	android:layout_width="0dip"
+    	android:layout_height="wrap_content"
+    	android:layout_weight="20" >
+	    <LinearLayout 
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:orientation="horizontal"
+	    	android:layout_gravity="center" >
+	    	
+		    <TextView
+		        android:id="@+id/tvLeftBracket"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="["
+		        android:textSize="27dip"
+				android:layout_gravity="left"/>
+		    
+		    <TextView
+		        android:id="@+id/tvOperation"
+		        android:layout_width="27dip"
+		        android:layout_height="wrap_content"
+		        android:textSize="27dip"
+		        android:gravity="center"/>
+		    
+		    <TextView
+		        android:id="@+id/tvRightBracket"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="]"
+		        android:textSize="27dip"
+		        android:layout_gravity="right" />
+    	</LinearLayout>
+    </FrameLayout>
+
+    
+    <LinearLayout 
+    	android:layout_width="0dip"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical"
+    	android:layout_weight="40" >
+    	
+        <TextView
+        	android:id="@+id/tvName"
+       		android:layout_width="wrap_content"
+        	android:layout_height="wrap_content" />
+        
+        <TextView
+	        android:id="@+id/tvDate"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"/>
+        	
+    </LinearLayout>
+    
+    <FrameLayout 
+    	android:layout_width="0dip"
+    	android:layout_height="wrap_content"
+    	android:layout_weight="40" 
+    	android:paddingRight="16dip">
+	    <TextView
+	        android:id="@+id/tvScore"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="22dip"
+	        android:layout_gravity="right"
+	        />
+    </FrameLayout>
+
+</LinearLayout>
