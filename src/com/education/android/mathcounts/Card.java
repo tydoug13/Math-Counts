@@ -9,7 +9,7 @@ package com.education.android.mathcounts;
 public class Card {
 	public static final String QUESTION_NUM = "question_number";  	//Represents index of card
 	
-	private int mFirstNum;
+	private int mFirstNum; 
 	private int mSecondNum;
 	private int mAnswer;
 	private int mQuestionNum;
