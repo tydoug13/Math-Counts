@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <PreferenceCategory 
+        android:title="@string/storage_title"
+        android:key="pref_key_storage_settings">
+        
+        <SwitchPreference
+            android:key="pref_dropbox"
+            android:title="@string/dropbox_storage"
+            android:summaryOn="@string/dropbox_summary_on"
+            android:summaryOff="@string/dropbox_summary_off"
+            android:defaultValue="false"
+            />
+        
+    </PreferenceCategory>
+    
+    <PreferenceCategory 
+        android:title="@string/security_title"
+        android:key="pref_key_security_settings">
+        
+        <SwitchPreference
+            android:key="settings_password_toggle"
+            android:title="@string/password_title"
+            android:summary="@string/password_summary"
+            android:defaultValue="false"
+            />
+        
+    </PreferenceCategory>
+    
+    <PreferenceCategory 
+        android:title="@string/rate"
+        android:key="pref_key_rate_settings">
+        
+        <Preference
+            android:key="rate_option"
+            android:title="@string/rate_app"
+            />
+    </PreferenceCategory>
+    
+
+</PreferenceScreen>

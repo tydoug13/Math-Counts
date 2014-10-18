@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pruebas de Math</string>
+    <string name="action_settings">Configuraciones</string>
+    <string name="options_menu_info">Información del Estudiante:</string>
+    <string name="hint_name">Escriba el nombre</string>
+    <string name="hint_email">Email</string>
+    <string name="options_menu_test_options">Configuraciones para la Prueba:</string>
+    <string name="options_menu_difficulty">Dificultad:</string>
+    <string name="difficulty_easy">Fácil</string>
+    <string name="difficulty_medium">Medio</string>
+    <string name="difficulty_difficult">Difícil</string>
+    <string name="options_menu_numQuestions">Cuantas Preguntas:</string>
+    <string name="options_menu_timer">Temporizador:</string>
+    <string name="numQuestions_description">Números</string>
+    <string name="options_menu_start">Empezar</string>
+    <string name="button_addition">Adición</string>
+	<string name="button_subtraction">Sustracción</string>
+    <string name="button_multiplication">Multiplicación</string>
+    <string name="button_division">División</string>
+    <string name="button_submit">Entregar</string>
+    <string name="start_test">¡Iniciar prueba!</string>
+    <string name="quit_button">Dejar</string>
+    <string name="storage_prompt">¿Quieres subir tus resultados a Dropbox?</string>
+    <string name="previous_tests">Pruebas Anteriores</string>
+    <string name="delete_tab">Eliminar Pestaña</string>
+    <string name="delete_all_tests">Eliminar todas las pruebas</string>
+    <string name="delete_test">Eliminar prueba</string>
+    
+    <string-array name="addition_difficulty">
+        <item>Medio</item>
+        <item>Difícil</item>
+        <item>Experto</item>
+        <item>Fácil</item>
+        <item>Medio</item>
+        <item>Difícil</item>
+        <item>Experto</item>
+        <item>Fácil</item>
+    </string-array>
+    
+    <string-array name="subtraction_difficulty">
+        <item>Medio</item>
+        <item>Difícil</item>
+        <item>Experto</item>
+        <item>Fácil</item>
+        <item>Medio</item>
+        <item>Difícil</item>
+        <item>Experto</item>
+        <item>Fácil</item>
+    </string-array>
+    
+    <string-array name="multiplication_difficulty">
+        <item>Todos</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    
+    <string-array name="division_difficulty">
+        <item>Todos</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    
+    <string-array name="question_numbers">
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>50</item>
+        <item>100</item>
+        <item>5</item>
+    </string-array>
+    
+    <string-array name="timer_values">
+        <item>1:00</item>
+        <item>2:00</item>
+        <item>3:00</item>
+        <item>4:00</item>
+        <item>5:00</item>
+        <item>10:00</item>
+        <item>\u221E</item>
+        <item>0:30</item>
+    </string-array>
+    
+    
+    <string name="ChallengeMode">Modo Desafío</string>
+    <string name="MathAttack">Ataque de las Matemáticas</string>
+    <string name="TimeAttack">Ataque del Tiempo</string>
+    <string name="Question">Pregunta</string>
+    <string name="Challenge">Desafío</string>
+    <string name="Mult">Multiplicación</string>
+    <string name="Madness">Locura</string>
+    <string name="Survival">Supervivencia</string>
+    <string name="NewPassword">Contraseña Nueva</string>
+    <string name="Cancel">Cancelar</string>
+    <string name="PasswordsAreDifferent">¡Contraseñas están Diferentes!</string>
+    <string name="DeleteAllTestsQuestion">¿Estás seguro que deseas eliminar todas las pruebas?</string>
+    <string name="DeleteTabQuestion">¿Estás seguro que deseas eliminar esta pestaña?</string>
+    <string name="DeleteAllTests">Eliminar todas pruebas</string>
+    <string name="DeleteThisTab">Eliminar esta pestaña</string>
+    <string name="EnterPassword">Escriba un contraseña</string>
+    <string name="PasswordIncorrect">¡Contraseña Incorrecto!</string>
+    <string name="MathCounts">Math Counts</string>
+    <string name="TapASymbol">Tocar un Símbolo</string>
+    <string name="PasswordDialog">Password Diálogo</string>
+    <string name="SwipeLeft">Pasa a la izquierda para continuar</string>
+    <string name="QuitQuestion">¿Estás seguro que dejar la pruebas?</string>
+    <string name="Quit">Dejar</string>
+    <string name="Delete">Eliminar</string>
+    <string name="Next">Próximo</string>
+       
+    <string name="easy">Fácil</string>
+    <string name="medium">Medio</string>
+    <string name="hard">Difícil</string>
+    <string name="expert">Experto</string>
+    <string name="all">Todos</string>
+    <string name="noTime">No tiempo</string>
+    <string name="multiplier">Multiplicador</string>
+    <string name="divisor">Divisor</string>
+    <string name="pressSubmitToFinish">Tocar \"Entregar\" para terminar.</string>
+    <string name="useDropbox">Usar Dropbox</string>
+    <string name="noThanks">No, gracias</string>
+    <string name="tabDeleted">Pestaña eliminado!</string>
+    <string name="allTestsDeleted">Todas pruebas eliminadas!</string>
+    <string name="testHistory">Pruebas Anteriores</string>
+    <string name="allTests">Todas pruebas</string>
+    <string name="noName">Ningún nombre</string>
+    
+    <string name="storage_title">Almacenamiento</string>
+	<string name="dropbox_storage">Almacenamiento de Dropbox</string>
+	<string name="dropbox_summary_on">Almacenamiento de Dropbox Habilitado</string>
+	<string name="dropbox_summary_off">Almacenamiento de Dropbox Inhabilitado</string>
+	<string name="security_title">Seguridad</string>
+	<string name="password_title">Proteger Configuraciones con Contraseña</string>
+	<string name="password_summary">Previnir cambios de los configuraciones</string>
+	<string name="rate">Calificar</string>
+	<string name="rate_app">Calificar la applicación!</string>
+	<string name="enter_pass">Escriba contraseña:</string>
+	<string name="reenter">Escríbala de nuevo:</string>
+	<string name="large_text">Texto grande</string>
+	<string name="tap_symbol">Tocar un símbolo</string>
+	<string name="challenge_mode">Modo Desafío</string>
+	<string name="delete">Eliminar</string>
+	<string name="next">Próximo</string>
+	<string name="time">Tiempo</string>
+	<string name="difficulty">Dificultad</string>
+	<string name="num_questions"># de Preguntas</string>
+	<string name="score">Partitura</string>
+	<string name="level">Nivel</string>
+	<string name="try_again">Intentar de nuevo</string>
+	<string name="enter_password">Escriba contraseña</string>
+	<string name="re">Escríbala de nuevo:</string>
+	<string name="time_used">Tiempo Usado</string>
+    
+    <string name="home">Hogar</string>
+    
+    <string name="your_score">Su Resultado:</string>
+    <string name="new_high_score">Nuevo Récord de Puntuación!</string>
+    <string name="high_scores">Puntuaciones Altas</string>
+    <string name="please_enter_name">Por favor escriba su nombre:</string>
+    <string name="squares_challenge">Cuadrados y Raíces</string>
+    <string name="percentages_challenge">Porcentajes</string>
+    <string name="ten_question_challenge">Desafío Diez\nPreguntas</string>
+    <string name="multiplication_madness">Multiplicación\nLocura</string>
+    <string name="two_minute_drill">2-Minuto\nEjercicio</string>
+    <string name="of">de</string>
+    <string name="submit">Entregar</string>
+    
+    <string name="squares_description">Dificultad: Medio</string>
+    <string name="percentages_desciption">Dificultad: Medio</string>
+    <string name="ten_questions_description">Dificultad: Muy Difícil</string>
+    <string name="multiplication_madness_description">Dificultad: Difícil</string>
+    <string name="two_minute_challenge_description">Dificultad: Fácil</string>
+    <string name="time_colon">Tiempo:</string>
+    <string name="one_minute">1 Minuto</string>
+    <string name="two_minutes">2 Minutos</string>
+    <string name="choose_level">Elegir Dificultad:</string>
+    <string name="example">Ejemplo:</string>
+    <string name="numQuestions">Número de Preguntas:</string>
+    <string name="amountOfTime">Cantidad de Tiempo:</string>
+    <string name="rememberMe">Acuérdate de mí</string>
+    
+    <string name="choose_difficulty">Elegir Dificultad:</string>
+    <string name="choose_multiplier">Elegir Multiplicador:</string>
+    <string name="choose_divider">Elegir Divisor:</string>
+    
+    <string name="go_back">Regresar</string>
+    <string name="press_submit">Pulsar entregar para terminar</string>
+    <string name="you_skipped">Descuidaste</string>
+    <string name="space_questions">preguntas.</string>
+    
+</resources>

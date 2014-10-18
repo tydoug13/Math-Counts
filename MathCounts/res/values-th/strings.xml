@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">คณิตศาสตร์หมดเวลาทดสอบ</string>
+    <string name="action_settings">ลักษณะ</string>
+    <string name="options_menu_info">สารสนเทศนักศึกษา:</string>
+    <string name="hint_name">เขียนชื่อของคุณ</string>
+    <string name="hint_email">อีเมล์</string>
+    <string name="options_menu_test_options">ตัวเลือกการทดสอบ:</string>
+    <string name="options_menu_difficulty">ความยาก:</string>
+    <string name="difficulty_easy">ง่าย</string>
+    <string name="difficulty_medium">ปานกลาง</string>
+    <string name="difficulty_difficult">ยาก</string>
+    <string name="options_menu_numQuestions">ปริมาณของคำถาม:</string>
+    <string name="options_menu_timer">จับเวลา:</string>
+    <string name="numQuestions_description">เลข </string>
+    <string name="options_menu_start">เริ่มต้น</string>
+    <string name="button_addition">นอกจากนี้</string>
+	<string name="button_subtraction">หัก</string>
+    <string name="button_multiplication">การคูณ</string>
+    <string name="button_division">หาร</string>
+    <string name="button_submit">จบบริบูรณ์</string>
+    <string name="start_test">เริ่มต้นการทดสอบ!</string>
+    <string name="quit_button">เลิก</string>
+    <string name="storage_prompt">ผลการอัปโหลด?</string>
+    <string name="previous_tests">การทดสอบการดำเนินการก่อนหน้านี้</string>
+    <string name="delete_tab">แท็บลบ</string>
+    <string name="delete_all_tests">ลบการทดสอบทุก</string>
+    <string name="delete_test">ลบการทดสอบนี้</string>
+    
+    <string-array name="addition_difficulty">
+        <item>ปานกลาง</item>
+        <item>ฮาร์ด</item>
+        <item>ผู้เชี่ยวชาญ</item>
+        <item>ง่าย</item>
+        <item>ปานกลาง</item>
+        <item>ฮาร์ด</item>
+        <item>ผู้เชี่ยวชาญ</item>
+        <item>ง่าย</item>
+    </string-array>
+    
+    <string-array name="subtraction_difficulty">
+        <item>ปานกลาง</item>
+        <item>ฮาร์ด</item>
+        <item>ผู้เชี่ยวชาญ</item>
+        <item>ง่าย</item>
+        <item>ปานกลาง</item>
+        <item>ฮาร์ด</item>
+        <item>ผู้เชี่ยวชาญ</item>
+        <item>ง่าย</item>
+    </string-array>
+    
+    <string-array name="multiplication_difficulty">
+        <item>1 - 12</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    
+    <string-array name="division_difficulty">
+        <item>1 - 12</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    
+    <string-array name="question_numbers">
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>50</item>
+        <item>100</item>
+        <item>5</item>
+    </string-array>
+    
+    <string-array name="timer_values">
+        <item>1:00</item>
+        <item>2:00</item>
+        <item>3:00</item>
+        <item>4:00</item>
+        <item>5:00</item>
+        <item>10:00</item>
+        <item>\u221E</item>
+        <item>0:30</item>
+    </string-array>
+    
+    
+    <string name="ChallengeMode">โหมดท้าทาย</string>
+    <string name="MathAttack">การโจมตีทางคณิตศาสตร์</string>
+    <string name="TimeAttack">การโจมตีครั้ง</string>
+    <string name="Question">คำถาม</string>
+    <string name="Challenge">ความท้าทาย</string>
+    <string name="Mult">คูณ</string>
+    <string name="Madness">ความบ้าคลั่ง</string>
+    <string name="Survival">การอยู่รอด</string>
+    <string name="NewPassword">สร้างรหัสผ่าน</string>
+    <string name="Cancel">ยกเลิก</string>
+    <string name="PasswordsAreDifferent">รหัสผ่านที่แตกต่างกัน!</string>
+    <string name="DeleteAllTestsQuestion">คุณแน่ใจหรือว่าคุณต้องการที่จะลบการทดสอบทั้งหมด?</string>
+    <string name="DeleteTabQuestion">คุณกำลังบางอย่างที่คุณต้องการลบแท็บนี้?</string>
+    <string name="DeleteAllTests">ลบการทดสอบทั้งหมด</string>
+    <string name="DeleteThisTab">ลบแท็บนี้</string>
+    <string name="EnterPassword">ประเภทรหัสผ่าน</string>
+    <string name="PasswordIncorrect">รหัสผ่านไม่ถูกต้อง!</string>
+    <string name="MathCounts">คณิตศาสตร์หมดเวลาทดสอบ</string>
+    <string name="TapASymbol">แตะที่ภาพ</string>
+    <string name="PasswordDialog">Password Dialog</string>
+    <string name="SwipeLeft">รูดซ้ายเพื่อดำเนินการต่อ</string>
+    <string name="QuitQuestion">คุณแน่ใจว่าคุณต้องการที่จะเลิก?</string>
+    <string name="Quit">เลิก</string>
+    <string name="Delete">กำจัด</string>
+    <string name="Next">รุดหน้า</string>
+       
+    <string name="easy">ง่าย</string>
+    <string name="medium">ปานกลาง</string>
+    <string name="hard">ยาก</string>
+    <string name="expert">ชำนาญ</string>
+    <string name="all">1 - 12</string>
+    <string name="noTime">ไม่ จำกัด</string>
+    <string name="multiplier">คูณ</string>
+    <string name="divisor">จำนวนหาร</string>
+    <string name="pressSubmitToFinish">กดเสร็จสิ้นเพื่อจบ.</string>
+    <string name="useDropbox">ใช้ Dropbox</string>
+    <string name="noThanks">นับถือลดลง</string>
+    <string name="tabDeleted">ลบออก!</string>
+    <string name="allTestsDeleted">ลบออก!</string>
+    <string name="testHistory">ประวัติศาสตร์การทดสอบ</string>
+    <string name="allTests">การทดสอบทั้งหมด</string>
+    <string name="noName">นิรนาม</string>
+    
+    <string name="storage_title">ที่เก็บของ</string>
+	<string name="dropbox_storage">Dropbox ที่เก็บของ</string>
+	<string name="dropbox_summary_on">Dropbox การจัดเก็บข้อมูลที่ได้รับอนุญาต</string>
+	<string name="dropbox_summary_off">Dropbox การจัดเก็บที่ไม่ได้รับอนุญาต</string>
+	<string name="security_title">การรักษาความปลอดภัย</string>
+	<string name="password_title">รหัสผ่านเพื่อป้องกัน</string>
+	<string name="password_summary">เพื่อป้องกันไม่ให้เปลี่ยนแปลงการตั้งค่า</string>
+	<string name="rate">ตีราคา</string>
+	<string name="rate_app">ตีราคา!</string>
+	<string name="enter_pass">ส่งรหัสผ่าน:</string>
+	<string name="reenter">กรอกรหัสผ่านอีกครั้ง:</string>
+	<string name="large_text">ข้อความขนาดใหญ่</string>
+	<string name="tap_symbol">แตะที่ภาพ</string>
+	<string name="challenge_mode">โหมดท้าทาย</string>
+	<string name="delete">กำจัด</string>
+	<string name="next">รุดหน้า</string>
+	<string name="time">กาลเวลา</string>
+	<string name="difficulty">ความยาก</string>
+	<string name="num_questions">ปริมาณของคำถาม</string>
+	<string name="score">คะแนน</string>
+	<string name="level">ขนาด</string>
+	<string name="try_again">ลองอีกครั้ง</string>
+	<string name="enter_password">ส่งรหัสผ่าน:</string>
+	<string name="re">กรอกรหัสผ่านอีกครั้ง:</string>
+	<string name="time_used">เวลาที่ใช้</string>
+    
+    <string name="home">หน้าจอหลัก</string>
+    
+    <string name="your_score">คะแนนของคุณ:</string>
+    <string name="new_high_score">คะแนนสูงใหม่!</string>
+    <string name="high_scores">คะแนนสูง</string>
+    <string name="please_enter_name">กรุณาใส่ชื่อของคุณ:</string>
+    <string name="squares_challenge">สี่เหลี่ยมรากที่สอง</string>
+    <string name="percentages_challenge">ร้อยละ</string>
+    <string name="ten_question_challenge">ความท้าทายสิบคำถาม</string>
+    <string name="multiplication_madness">คูณบ้า</string>
+    <string name="two_minute_drill">เจาะสองนาที</string>
+    <string name="of">ของ</string>
+    <string name="back_to_challenge">กลับไปที่โหมดท้าทาย</string>
+    <string name="submit">ส่ง</string>
+    
+    <string name="squares_description">ความยาก: ปานกลาง</string>
+    <string name="percentages_desciption">ความยาก: ปานกลาง</string>
+    <string name="ten_questions_description">ความยาก: ยากมาก</string>
+    <string name="multiplication_madness_description">ความยาก: ยาก</string>
+    <string name="two_minute_challenge_description">ความยาก: ง่าย</string>
+    <string name="time_colon">กาล:</string>
+    <string name="one_minute">1 นาที</string>
+    <string name="two_minutes">2 นาที</string>
+    <string name="unlimited">ไม่ จำกัด</string>
+    <string name="choose_level">เลือกระดับ:</string>
+    <string name="example">ตัวอย่างเช่น:</string>
+    <string name="numQuestions">ปริมาณของคำถาม:</string>
+    <string name="amountOfTime">ช่วงเวลา:</string>
+    <string name="rememberMe">จำผมได้</string>
+    
+    <string name="choose_difficulty">เลือกความยากลำบาก:</string>
+    <string name="choose_multiplier">เลือกตัวคูณ:</string>
+    <string name="choose_divider">เลือกหาร:</string>
+    
+    <string name="go_back">ที่จะกลับไป</string>
+    <string name="press_submit">กดส่งไปจบที่</string>
+    <string name="you_skipped">คุณละเลย</string>
+    <string name="space_questions">คำถาม</string>
+</resources>

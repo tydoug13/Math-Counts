@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"> 
+    
+    <TextView android:id="@+id/challengeSquares_quitText"
+        android:paddingRight="16dp"
+        android:background="?android:attr/selectableItemBackground"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:layout_centerVertical="true"
+	    android:textAppearance="?android:attr/textAppearanceMedium"
+	    android:drawableLeft="@drawable/ic_action_previous_item"
+	    android:text="@string/quit_button"
+	    android:gravity="center_vertical"
+    />
+    
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true" >
+        
+		   
+		   <TextView android:id="@+id/challenge_score_keeper_title"
+		       android:layout_width="wrap_content"
+		       android:layout_height="wrap_content"
+		       android:layout_alignParentTop="true"
+		       android:layout_centerHorizontal="true"
+		       android:text="@string/score"
+		       android:textSize="20dp"
+		       android:textColor="#FFFFFF" />
+    
+		   <TextView android:id="@+id/challenge_score_keeper"
+		       android:layout_width="wrap_content"
+		       android:layout_height="wrap_content"
+		       android:layout_alignParentBottom="true"
+		       android:layout_centerHorizontal="true"
+		       android:text="30" 
+		       android:textSize="20dp"
+		       android:textColor="#33FF33"/>
+		   
+    </RelativeLayout>
+    
+    <TextView android:id="@+id/challengeSquares_timerText"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+</RelativeLayout>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Math Timed Tests</string>
+    <string name="action_settings">Settings</string>
+    <string name="options_menu_info">Student Info:</string>
+    <string name="hint_name">Enter Name</string>
+    <string name="hint_email">Email</string>
+    <string name="options_menu_test_options">Test Options:</string>
+    <string name="options_menu_difficulty">Difficulty:</string>
+    <string name="difficulty_easy">Easy</string>
+    <string name="difficulty_medium">Medium</string>
+    <string name="difficulty_difficult">Difficult</string>
+    <string name="options_menu_numQuestions">Number of Questions:</string>
+    <string name="options_menu_timer">Timer:</string>
+    <string name="numQuestions_description">Numbers </string>
+    <string name="options_menu_start">Start</string>
+    <string name="button_addition">Addition</string>
+	<string name="button_subtraction">Subtraction</string>
+    <string name="button_multiplication">Multiplication</string>
+    <string name="button_division">Division</string>
+    <string name="button_submit">Submit</string>
+    <string name="start_test">Start test!</string>
+    <string name="quit_button">Quit</string>
+    <string name="storage_prompt">Would you like to upload results to Dropbox in an Excel spreadsheet?</string>
+    <string name="previous_tests">Previous Tests</string>
+    <string name="delete_tab">Delete tab</string>
+    <string name="delete_all_tests">Delete all tests</string>
+    <string name="delete_test">Delete test</string>
+    
+    <string-array name="addition_difficulty">
+        <item>Medium</item>
+        <item>Hard</item>
+        <item>Expert</item>
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+        <item>Expert</item>
+        <item>Easy</item>
+    </string-array>
+    
+    <string-array name="subtraction_difficulty">
+        <item>Medium</item>
+        <item>Hard</item>
+        <item>Expert</item>
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+        <item>Expert</item>
+        <item>Easy</item>
+    </string-array>
+    
+    <string-array name="multiplication_difficulty">
+        <item>1 - 12</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    
+    <string-array name="division_difficulty">
+        <item>1 - 12</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    
+    <string-array name="question_numbers">
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>50</item>
+        <item>100</item>
+        <item>5</item>
+    </string-array>
+    
+    <string-array name="timer_values">
+        <item>1:00</item>
+        <item>2:00</item>
+        <item>3:00</item>
+        <item>4:00</item>
+        <item>5:00</item>
+        <item>10:00</item>
+        <item>\u221E</item>
+        <item>0:30</item>
+    </string-array>
+    
+    
+    <string name="ChallengeMode">Challenge Mode</string>
+    <string name="MathAttack">Math Attack</string>
+    <string name="TimeAttack">Time Attack</string>
+    <string name="Question">Question</string>
+    <string name="Challenge">Challenge</string>
+    <string name="Mult">Multiplication</string>
+    <string name="Madness">Madness</string>
+    <string name="Survival">Survival</string>
+    <string name="NewPassword">New Password</string>
+    <string name="Cancel">Cancel</string>
+    <string name="PasswordsAreDifferent">Passwords Are Different!</string>
+    <string name="DeleteAllTestsQuestion">Are you sure you want to delete all tests?</string>
+    <string name="DeleteTabQuestion">Are you sure you want to delete this tab?</string>
+    <string name="DeleteAllTests">Delete all tests</string>
+    <string name="DeleteThisTab">Delete this tab</string>
+    <string name="EnterPassword">Enter Password</string>
+    <string name="PasswordIncorrect">Password Incorrect!</string>
+    <string name="MathCounts">Math Counts</string>
+    <string name="TapASymbol">Tap a symbol</string>
+    <string name="PasswordDialog">Password Dialog</string>
+    <string name="SwipeLeft">Swipe left to continue</string>
+    <string name="QuitQuestion">Are you sure you want to quit?</string>
+    <string name="Quit">Quit</string>
+    <string name="Delete">Delete</string>
+    <string name="Next">Next</string>
+       
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+    <string name="expert">Expert</string>
+    <string name="all">1 - 12</string>
+    <string name="noTime">No time</string>
+    <string name="multiplier">Multiplier</string>
+    <string name="divisor">Divisor</string>
+    <string name="pressSubmitToFinish">Press submit to finish.</string>
+    <string name="useDropbox">Use Dropbox</string>
+    <string name="noThanks">No thanks</string>
+    <string name="tabDeleted">Tab deleted!</string>
+    <string name="allTestsDeleted">All tests deleted!</string>
+    <string name="testHistory">Test History</string>
+    <string name="allTests">All tests</string>
+    <string name="noName">No name</string>
+    
+    <string name="storage_title">Storage</string>
+	<string name="dropbox_storage">Dropbox storage</string>
+	<string name="dropbox_summary_on">Find results in Apps folder on Dropbox.</string>
+	<string name="dropbox_summary_off">Upload results in an Excel spreadsheet.</string>
+	<string name="security_title">Security</string>
+	<string name="password_title">Password protect</string>
+	<string name="password_summary">To prevent changes to settings</string>
+	<string name="rate">Rate</string>
+	<string name="rate_app">Rate the App!</string>
+	<string name="enter_pass">Enter password:</string>
+	<string name="reenter">Re-enter:</string>
+	<string name="large_text">Large Text</string>
+	<string name="tap_symbol">Tap a symbol</string>
+	<string name="challenge_mode">Challenge Mode</string>
+	<string name="delete">Delete</string>
+	<string name="next">Next</string>
+	<string name="time">Time</string>
+	<string name="difficulty">Difficulty</string>
+	<string name="num_questions"># of Questions</string>
+	<string name="score">Score</string>
+	<string name="level">Level</string>
+	<string name="try_again">Try again</string>
+	<string name="enter_password">Enter password</string>
+	<string name="re">Re-enter</string>
+	<string name="time_used">Time Used</string>
+    
+    <string name="home">Home</string>
+    
+    <string name="your_score">Your Score:</string>
+    <string name="new_high_score">New High Score!</string>
+    <string name="high_scores">High Scores</string>
+    <string name="please_enter_name">Please enter your name:</string>
+    <string name="squares_challenge">Squares and Roots</string>
+    <string name="percentages_challenge">Percentages</string>
+    <string name="ten_question_challenge">Ten Question\nChallenge</string>
+    <string name="multiplication_madness">Multiplication\nMadness</string>
+    <string name="two_minute_drill">2-Minute Drill</string>
+    <string name="of">of</string>
+    <string name="back_to_challenge">Back to Challenge Mode</string>
+    <string name="submit">Submit</string>
+    
+    <string name="squares_description">Difficulty: Medium</string>
+    <string name="percentages_desciption">Difficulty: Medium</string>
+    <string name="ten_questions_description">Difficulty: Very Hard</string>
+    <string name="multiplication_madness_description">Difficulty: Hard</string>
+    <string name="two_minute_challenge_description">Difficulty: Easy</string>
+    <string name="time_colon">Time:</string>
+    <string name="one_minute">1 minute</string>
+    <string name="two_minutes">2 minutes</string>
+    <string name="unlimited">Unlimited</string>
+    <string name="choose_level">Choose Level:</string>
+    <string name="example">Example:</string>
+    <string name="numQuestions">Number of Questions:</string>
+    <string name="amountOfTime">Amount of Time:</string>
+    <string name="rememberMe">Remember me</string>
+    
+    <string name="choose_difficulty">Choose Difficulty:</string>
+    <string name="choose_multiplier">Choose Multiplier:</string>
+    <string name="choose_divider">Choose Divisor:</string>
+    
+    <string name="go_back">Go Back</string>
+    <string name="press_submit">Press submit to finish.</string>
+    <string name="you_skipped">You skipped</string>
+    <string name="space_questions">questions.</string>
+</resources>

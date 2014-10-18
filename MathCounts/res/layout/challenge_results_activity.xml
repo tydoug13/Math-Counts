@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#e4e4e4">
+    
+    	<TextView android:id="@+id/results_page_message"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_margin="32dp"
+    	    android:layout_alignParentTop="true"
+    	    android:layout_centerHorizontal="true"
+    	    android:text="@string/your_score"
+    	    android:textSize="30sp" />
+    	
+    	<TextView android:id="@+id/challenge_score"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_below="@id/results_page_message"
+    	    android:layout_centerHorizontal="true"
+    	    android:text="2800" 
+    	    android:layout_marginBottom="32dp"
+    	    android:textSize="40sp"
+    	    android:textStyle="bold" />
+    
+    	<TextView android:id="@+id/highScoresTV"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_centerVertical="true"
+    	    android:layout_below="@id/challenge_score"
+    	    android:layout_marginLeft="32dp"
+    	    android:layout_marginRight="32dp"
+    	    android:text="@string/high_scores"
+    	    android:textSize="20sp"/>
+    	
+    	<View android:id="@+id/highScoresLine"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="1dp"
+    	    android:background="#c4c4c4"
+    	    android:layout_marginLeft="24dp"
+    	    android:layout_marginRight="24dp"
+    	    android:layout_marginBottom="16dp"
+    	    android:layout_below="@id/highScoresTV" />
+    	
+    	<TextView android:id="@+id/highScoreOne"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_marginLeft="32dp"
+    	    android:layout_marginRight="32dp"
+    	    android:layout_marginBottom="32dp"
+    	    android:layout_below="@id/highScoresLine"
+    	    android:text="1. Joey      1200"
+    	    android:textSize="20sp" />	
+    	
+    	<TextView android:id="@+id/highScoreTwo"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_marginLeft="32dp"
+    	    android:layout_marginRight="32dp"
+    	    android:layout_marginBottom="32dp"
+    	    android:layout_below="@id/highScoreOne"
+    	    android:text="2."
+    	    android:textSize="20sp" />
+    	
+    	<TextView android:id="@+id/highScoreThree"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_marginLeft="32dp"
+    	    android:layout_marginRight="32dp"
+    	    android:layout_below="@id/highScoreTwo"
+    	    android:text="3."
+    	    android:textSize="20sp" />		
+    	      	    
+	   
+	    <Button android:id="@+id/tryAgainButton"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:text="@string/try_again"
+	        android:background="@drawable/button_shape_shadowed_blue"
+	        style="@style/TimeTestButton" />
+
+</RelativeLayout>
+

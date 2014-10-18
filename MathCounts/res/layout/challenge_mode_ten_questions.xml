@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"> 
+    
+    <TextView android:id="@+id/challengeTen_quitText"
+        android:paddingRight="16dp"
+        android:background="?android:attr/selectableItemBackground"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:layout_centerVertical="true"
+	    android:textAppearance="?android:attr/textAppearanceMedium"
+	    android:drawableLeft="@drawable/ic_action_previous_item"
+	    android:text="@string/quit_button"
+	    android:gravity="center_vertical"
+    />
+    
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_height="match_parent"
+        android:layout_width="120sp"
+        android:orientation="vertical" >
+        
+        <LinearLayout
+            android:layout_height="0dp" 
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+            
+	        <ImageView android:id="@+id/challengeTen_boxOne"
+	            android:src="@drawable/btn_circle_normal"
+	            android:layout_height="wrap_content"
+	            android:layout_width="0dp"
+	            android:layout_weight=".1" />
+	        
+	        <ImageView android:id="@+id/challengeTen_boxTwo"
+	            android:src="@drawable/btn_circle_normal"
+	            android:layout_height="wrap_content"
+	            android:layout_width="0dp"
+	            android:layout_weight=".1" />
+	        
+	        <ImageView android:id="@+id/challengeTen_boxThree"
+	            android:src="@drawable/btn_circle_normal"
+	            android:layout_height="wrap_content"
+	            android:layout_width="0dp"
+	            android:layout_weight=".1" />
+	        
+	        <ImageView android:id="@+id/challengeTen_boxFour"
+	            android:src="@drawable/btn_circle_normal"
+	            android:layout_height="wrap_content"
+	            android:layout_width="0dp"
+	            android:layout_weight=".1" />
+	        
+	        <ImageView android:id="@+id/challengeTen_boxFive"
+	            android:src="@drawable/btn_circle_normal"
+	            android:layout_height="wrap_content"
+	            android:layout_width="0dp"
+	            android:layout_weight=".1" />
+            
+        </LinearLayout>
+       
+   <LinearLayout
+        android:layout_centerHorizontal="true"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1" >
+        
+        <ImageView android:id="@+id/challengeTen_boxSix"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight=".1"
+            android:src="@drawable/btn_circle_normal"
+             />
+        
+        <ImageView android:id="@+id/challengeTen_boxSeven"
+            android:layout_height="wrap_content"
+	        android:src="@drawable/btn_circle_normal"
+            android:layout_width="0dp"
+            android:layout_weight=".1" />
+        
+        <ImageView android:id="@+id/challengeTen_boxEight"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight=".1"
+	        android:src="@drawable/btn_circle_normal" />
+        
+        <ImageView android:id="@+id/challengeTen_boxNine"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight=".1"
+	        android:src="@drawable/btn_circle_normal" />
+        
+        <ImageView android:id="@+id/challengeTen_boxTen"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight=".1"
+	        android:src="@drawable/btn_circle_normal" />
+        </LinearLayout>
+    </LinearLayout>
+    
+    <TextView android:id="@+id/challengeTen_timerText"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0:30"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+</RelativeLayout>

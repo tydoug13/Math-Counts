@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#e4e4e4">
+    
+    	<TextView android:id="@+id/results_high_score_message"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_margin="24dp"
+    	    android:layout_alignParentTop="true"
+    	    android:layout_centerHorizontal="true"
+    	    android:text="@string/new_high_score"
+    	    android:textSize="30sp" />
+    	
+    	<TextView android:id="@+id/challenge_high_score"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_below="@id/results_high_score_message"
+    	    android:layout_centerHorizontal="true"
+    	    android:text="2800" 
+    	    android:textSize="40sp"
+    	    android:textStyle="bold" />
+    
+    	<EditText android:id="@+id/high_score_name"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+    	    android:layout_below="@id/challenge_high_score"
+    	    android:layout_marginLeft="16dp"
+    	    android:layout_marginRight="16dp"
+    	    android:layout_marginTop="16dp"
+    	    android:hint="@string/hint_name"
+    	    android:textSize="20sp"
+    	    android:background="#f0f0f0"/>
+ 
+	    <Button android:id="@+id/tryAgainHSButton"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="16dp"
+	        android:text="@string/try_again"
+	        android:layout_below="@id/high_score_name"
+	        android:background="@drawable/button_shape_shadowed_blue"
+	        style="@style/TimeTestButton" />
+
+</RelativeLayout>
+

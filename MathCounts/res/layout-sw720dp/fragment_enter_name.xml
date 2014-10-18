@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical"
+    android:background="#d4d4d4" >
+    
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="0dp" 
+		android:layout_weight="1" >
+		
+	    <TextView android:id="@+id/enterName"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:textSize="30sp"
+	        android:text="@string/please_enter_name"
+	        android:layout_centerHorizontal="true"
+	        android:layout_alignParentTop="true"
+	        android:layout_marginTop="64dp" 
+	        />
+    
+	    <EditText android:id="@+id/etName"
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent"
+	        android:layout_margin="48dp"
+	        android:padding="16dp"
+	        android:textSize="40sp"
+	        android:layout_below="@id/enterName"
+	        android:background="#ffffff"
+	        />
+	    
+	    <CheckBox android:id="@+id/rememberMe"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:layout_below="@id/etName"
+	        android:checked="true"
+	        android:layout_alignLeft="@id/etName"
+	        android:layout_marginLeft="32dp"
+	        android:textSize="30sp"
+	        android:text="@string/rememberMe"
+	        />
+	    
+	    <Button android:id="@+id/next"
+	        android:layout_height="80dp"
+	        android:layout_alignParentBottom="true"
+	        android:text="@string/next"
+	        android:textSize="35sp"
+	        android:textColor="#ffffff"
+	        style="@style/TimeTestButton" />
+	    
+
+	
+	</RelativeLayout>
+	
+	<View
+	    android:layout_width="match_parent"
+	    android:layout_height="0dp" 
+		android:layout_weight="1" 
+		/>
+
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#d4d4d4" >
+    
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#FFFFFF"
+        android:layout_marginTop="64dp" />
+    
+    <RelativeLayout android:id="@+id/home_relativeLayout" 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    
+	    <LinearLayout android:id="@+id/home_buttons"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:layout_above="@id/challenge_background"
+	        android:layout_centerHorizontal="true">
+	
+	        	
+			   <ImageView android:id="@+id/home_multiplication_button"
+			       android:layout_width="wrap_content"
+			       android:layout_height="wrap_content"
+			       android:src="@drawable/ggshimmermultiplicaiton200"
+			       />
+			   
+			   <ImageView android:id="@+id/home_division_button"
+			       android:layout_width="wrap_content"
+			       android:layout_height="wrap_content"
+			       android:src="@drawable/ggdivshimmer200"
+			       />"
+	    
+		</LinearLayout>
+		
+	    	<LinearLayout android:layout_above="@id/home_buttons"
+		       android:layout_width="wrap_content"
+		       android:layout_height="wrap_content"
+		       android:orientation="horizontal"
+		       android:layout_centerHorizontal="true">
+	        	
+			   <ImageView
+			       android:id="@+id/home_addition_button"
+			       android:layout_width="wrap_content"
+			       android:layout_height="wrap_content"
+			       android:maxWidth="250dp"
+			       android:src="@drawable/ggshimmer200" />
+			   
+			   <ImageView android:id="@+id/home_subtraction_button"
+			       android:layout_width="wrap_content"
+			       android:layout_height="wrap_content"
+			       android:src="@drawable/ggsubshimmer200"
+			       />
+			   
+			</LinearLayout>
+			
+		<FrameLayout android:id="@+id/challenge_background"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingBottom="24dp"
+	        android:layout_alignParentBottom="true"
+	        android:background="#d4d4d4">
+			   
+	        <ImageView android:id="@+id/challengeShadow"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center"
+	            android:visibility="invisible"
+	            android:src="@drawable/challenge_shadow"/>
+			   
+	        <ImageView android:id="@+id/challengeButton"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center"
+	            android:src="@drawable/challenge_mode_image" />
+	        
+	    </FrameLayout>
+    
+    </RelativeLayout>
+	
+</LinearLayout>

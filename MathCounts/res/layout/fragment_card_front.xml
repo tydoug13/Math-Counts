@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+    
+    <ImageView
+        android:id="@+id/gameCardImage"
+        android:layout_width="wrap_content"
+       	android:layout_height="wrap_content"
+       	android:layout_centerHorizontal="true"
+       	android:layout_marginTop="16dp"
+       	android:src="@drawable/game_card"
+        />
+    <TextView android:id="@+id/challengeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/gameCardImage"
+        android:layout_margin="12dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+    
+    <LinearLayout android:id="@+id/titleLine"
+        android:layout_below="@id/challengeTitle"
+        android:layout_height="1.5dp"
+        android:layout_width="150dp"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal"
+        android:background="#000000"
+        />
+    
+    <TextView android:id="@+id/challengeDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleLine"
+        android:layout_alignLeft="@id/gameCardImage" 
+        android:layout_margin="8dp"
+        android:text="- How fast can you complete\n all ten questions?"/>
+   
+    <ImageView android:id="@+id/boxOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8sp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignLeft="@id/gameCardImage"
+        android:layout_alignBottom="@id/gameCardImage"/>
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Includes"
+        android:textColor="#c4c4c4"
+        android:layout_above="@id/boxOne"
+        android:layout_alignLeft="@id/gameCardImage"
+        android:layout_marginLeft="8dp" />
+    
+    <ImageView android:id="@+id/boxTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4sp"
+        android:layout_toRightOf="@id/boxOne"
+        android:layout_alignTop="@id/boxOne" />
+    
+    <ImageView android:id="@+id/boxThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4sp"
+        android:layout_toRightOf="@id/boxTwo"
+        android:layout_alignTop="@id/boxTwo" />
+    
+    <ImageView android:id="@+id/boxFour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4sp"
+        android:layout_toRightOf="@id/boxThree"
+        android:layout_alignTop="@id/boxThree" />
+    
+
+</RelativeLayout>

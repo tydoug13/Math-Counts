@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#d4d4d4"
+    android:weightSum="10" >
+    
+    <RelativeLayout 
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="5" >
+        
+        <TextView android:id="@+id/namePrompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please enter your name:"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="16dp"
+            android:layout_alignParentTop="true" 
+            android:textSize="20sp"
+            android:textColor="#404040"/>
+    
+	    <EditText android:id="@+id/etname" 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:padding="8dp"
+	        android:background="#ffffff"
+	        android:layout_marginRight="16dp"
+	        android:layout_marginBottom="16dp"
+	        android:layout_marginLeft="16dp"
+	        android:layout_below="@id/namePrompt"
+	        android:inputType="textCapSentences" />
+	    
+	    <CheckBox
+	        android:id="@+id/rememberMe"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/etname"
+	        android:layout_below="@+id/etname"
+	        android:checked="true"
+	        android:layout_marginLeft="8dp"
+	        android:text="Remember Me"
+	        android:textSize="15dp" />
+	    
+	    <Button android:id="@+id/nextButtonName"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        style="@style/TimeTestButton" />
+    
+    </RelativeLayout>
+
+</LinearLayout>
