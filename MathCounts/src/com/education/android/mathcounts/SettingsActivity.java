@@ -11,7 +11,7 @@ public class SettingsActivity extends FragmentActivity {
 	public static final String DROPBOX_STORAGE = "pref_dropbox";
 	public static final String SETTINGS_PASSWORD = "settings_password";
 	public static final String SETTINGS_PASSWORD_TOGGLE = "settings_password_toggle";
-	public static final String RATE_OPTION = "rate_option"; 
+	public static final String RATE_OPTION = "rate_option";
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {

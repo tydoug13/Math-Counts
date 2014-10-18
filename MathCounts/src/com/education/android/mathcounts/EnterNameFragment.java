@@ -54,6 +54,7 @@ public class EnterNameFragment extends Fragment {
 		});
 		
 		final EditText editName = (EditText) v.findViewById(R.id.etName);
+		
 		editName.setText(mName);
 		mActivity.setStudentName(mName);
 		
@@ -61,27 +62,14 @@ public class EnterNameFragment extends Fragment {
 			editName.setText(previousName);
 			rememberCheck.setChecked(true);
 		}
-		editName.addTextChangedListener(new TextWatcher() {
-			@Override
-			public void afterTextChanged(Editable s) {
-			}
-
-			@Override
-			public void beforeTextChanged(CharSequence s, int start, int count,
-					int after) {
-			}
-
-			@Override
-			public void onTextChanged(CharSequence s, int start, int before, int count) {
-				mName = editName.getText().toString();
-				mActivity.setStudentName(mName);
-			}
-		});
 		
 		mNextButton = (Button) v.findViewById(R.id.next);
 		mNextButton.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {	
+				mName = editName.getText().toString();
+				mActivity.setStudentName(mName);
+				
 				if(rememberCheck.isChecked()) {
 					PreferenceManager
 						.getDefaultSharedPreferences(mActivity.getApplicationContext())
